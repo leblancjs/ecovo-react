@@ -3,6 +3,7 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
+    "source.eslint.fixAll": true,
     "source.organizeImports": true
   }
 }
