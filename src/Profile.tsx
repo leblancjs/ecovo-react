@@ -1,7 +1,7 @@
-import { useAuth0 } from '@auth0/auth0-react'
+import { useAuth } from './auth'
 
 function Profile() {
-  const { user, isAuthenticated, isLoading } = useAuth0()
+  const { user, isAuthenticated, isLoading } = useAuth()
 
   if (isLoading) {
     return <div>Loading...</div>
